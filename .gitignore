@@ -13,6 +13,7 @@ tools/virtualenvs
 .cache/
 .idea/
 .tox/
+venv/
 .venv*/
 .DS_Store
 .coverage
