@@ -301,7 +301,7 @@ def exec_file(filename, globals={}, locals=None):
     if locals is None:
         locals = globals
     locals['__file__'] = filename
-    with open(filename) as f:
+    with open(filename, "rb") as f:
         # -- FIX issue #80: exec(f.read(), globals, locals)
         # try:
         filename2 = os.path.relpath(filename, os.getcwd())
@@ -696,7 +696,3 @@ class Runner(ModelRunner):
         stream_openers = self.config.outputs
         self.formatters = make_formatters(self.config, stream_openers)
         return self.run_model()
-
-
-
-
