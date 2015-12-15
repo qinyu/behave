@@ -24,7 +24,7 @@ def ET_tostring(elem, pretty_print=False):
     text = ET.tostring(elem, "utf-8")
     if pretty_print:
         pass
-    return text
+    return text.decode("utf-8")
 
 
 class JavaScriptLibrary(object):
