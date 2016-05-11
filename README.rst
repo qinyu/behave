@@ -14,7 +14,7 @@ Behave
     :target: https://pypi.python.org/pypi/behave
     :alt: Latest Version
 
-.. image:: https://img.shields.io/pypi/dd/behave.svg
+.. image:: https://img.shields.io/pypi/dm/behave.svg
     :target: https://pypi.python.org/pypi/behave
     :alt: Downloads
 
@@ -89,7 +89,7 @@ Run behave:
     1 scenario passed, 0 failed, 0 skipped
     3 steps passed, 0 failed, 0 skipped, 0 undefined
 
-Now, continue reading to learn how to the most of *behave*. To get started,
+Now, continue reading to learn how to get the most out of *behave*. To get started,
 we recommend the `tutorial`_ and then the `feature testing language`_ and
 `api`_ references.
 
@@ -108,5 +108,5 @@ More Information
 
 .. _behave documentation: http://pythonhosted.org/behave/
 .. _latest changes: https://github.com/behave/behave/blob/master/CHANGES.rst
-.. _behave.example: https://github.com/jenisys/behave.example
+.. _behave.example: https://github.com/behave/behave.example
 
